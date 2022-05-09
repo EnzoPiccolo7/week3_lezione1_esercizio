@@ -6,12 +6,14 @@ var email = window.prompt('Inserisci la tua email');
 var tutto = nomi + ' '+ cognome + ' '+eta +' '+citta+' '+ email ;
 
 var a = document.getElementById('nome').innerHTML = nomi;
-var a = document.getElementById('cognome').innerHTML = cognome;
-var a = document.getElementById('eta').innerHTML = eta;
-var a = document.getElementById('citta').innerHTML = citta;
-var a = document.getElementById('email').innerHTML = email;
+var b = document.getElementById('cognome').innerHTML = cognome;
+var c = document.getElementById('eta').innerHTML = eta;
+var d = document.getElementById('citta').innerHTML = citta;
+var e = document.getElementById('email').innerHTML = email;
+
 
 
 console.log(tutto);
 window.alert(tutto);
 
+document.write(tutto);
